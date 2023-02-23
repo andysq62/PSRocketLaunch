@@ -1,12 +1,12 @@
 Function Get-RLMission {
-    [CmdletBinding(DefaultParameterSetName = 'ByID')]
+    [CmdletBinding(DefaultParameterSetName = 'ByName')]
     Param(
         [Parameter(ValueFromPipeline,
             ParameterSetName = 'ByName')]
-        [String[]]$Name,
+        [String]$Name,
         [Parameter(ValueFromPipelineByPropertyName,
             ParameterSetName = 'ByID')]
-        [String[]]$ID,
+        [Int32[]]$ID,
         [String]$Page = '1'
     )
     Begin {
@@ -22,11 +22,13 @@ Function Get-RLMission {
             }
         }
         elseif ($PSCmdlet.ParameterSetName -eq 'ByName') {
-            $Name | ForEach-Object {
-                $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)&name=$($_)"
-                $Response | Write-Output
-            }
 
+            If ($PSBoundParameters.ContainsKey('Name')) {
+                $Query = "$($Query)&name=$($Name)"
+            }
+            $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
+            $Response | Write-Output
         }
+        
     } # End Process Block
 }

@@ -1,12 +1,13 @@
 Function Get-RLVehicle {
-    [CmdletBinding(DefaultParameterSetName = 'ByID')]
+    [CmdletBinding(DefaultParameterSetName = 'ByName')]
     Param(
         [Parameter(ValueFromPipeline,
             ParameterSetName = 'ByName')]
-        [String[]]$Name,
+        [String]$Name,
         [Parameter(ValueFromPipelineByPropertyName,
             ParameterSetName = 'ByID')]
         [String[]]$ID,
+        [Parameter(ParameterSetName = 'ByName')]
         [String]$Page = '1'
     )
     Begin {
@@ -22,11 +23,16 @@ Function Get-RLVehicle {
             }
         }
         elseif ($PSCmdlet.ParameterSetName -eq 'ByName') {
-            $Name | ForEach-Object {
-                $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)&name=$($_)"
-                $Response | Write-Output
+
+            If ($PSBoundParameters.ContainsKey('Name')) {
+                $Query = "$($Query)&name=$($Name)" 
             }
 
+            $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
+            $Response | Write-Output
+
         }
+    
+
     } # End Process Block
 }
