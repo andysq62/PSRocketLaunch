@@ -5,8 +5,12 @@ param(
 [String]$Entity,
 [String]$query
 )
+If($ENV:RocketLaunchAPIKey) {
+$APIKey = $ENV:RocketLaunchAPIKey
+} else {
+Throw "API key not present"
+}
 
-$APIKey = 'dcb79cef-ef1f-4456-b4c0-00811105526a'
 $ApiCall = @{
 URI = 'https://fdo.rocketlaunch.live/json/'
 Header = @{
