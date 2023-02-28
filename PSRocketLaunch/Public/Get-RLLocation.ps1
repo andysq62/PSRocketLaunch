@@ -30,11 +30,9 @@ Function Get-RLLocation {
                 'Name' { $Query = "$($Query)&name=$($Name)" }
                 'CountryCode' { $Query = "$($Query)&country_code=$($CountryCode)" }
             }
-                
 
             $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
             $Response | Write-Output
         }
-        
     } # End Process Block
 }

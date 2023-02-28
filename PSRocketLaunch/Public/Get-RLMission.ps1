@@ -29,6 +29,5 @@ Function Get-RLMission {
             $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
             $Response | Write-Output
         }
-        
     } # End Process Block
 }

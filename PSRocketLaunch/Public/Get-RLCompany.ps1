@@ -27,14 +27,12 @@ Function Get-RLCompany {
         elseif ($PSCmdlet.ParameterSetName -eq 'ByName') {
 
             Switch ($PSBoundParameters.Keys) {
-'Name' { $Query = "$($Query)&name=$($Name)" }
-'CountryCode' { $Query = "$($Query)&country_code=$($CountryCode)" }
+                'Name' { $Query = "$($Query)&name=$($Name)" }
+                'CountryCode' { $Query = "$($Query)&country_code=$($CountryCode)" }
             }
-            
             $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
             $Response | Write-Output
         }
 
-        
     } # End Process Block
 }

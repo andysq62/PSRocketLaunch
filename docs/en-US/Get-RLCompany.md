@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-RLCompany
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Returns data for an aerospace company.
 
 ## SYNTAX
 
@@ -23,21 +23,21 @@ Get-RLCompany [-ID <String[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Returns data from RocketLaunch.live for an aerospace company.
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Get-RLCompany -Name 'space'
 ```
 
-{{ Add example description here }}
+Returns data for all company names matching substring 'space'.
 
 ## PARAMETERS
 
 ### -CountryCode
-{{ Fill CountryCode Description }}
+Country code where company resides.
 
 ```yaml
 Type: String
@@ -52,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -ID
-{{ Fill ID Description }}
+Unique numeric identifier for a company.
 
 ```yaml
 Type: String[]
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-{{ Fill Name Description }}
+Substring matching name of company.
 
 ```yaml
 Type: String
@@ -82,7 +82,7 @@ Accept wildcard characters: False
 ```
 
 ### -Page
-{{ Fill Page Description }}
+Page of output.
 
 ```yaml
 Type: String
@@ -110,4 +110,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### System.Object
 ## NOTES
 
+Data provided by RocketLaunch.Live
+
 ## RELATED LINKS
+
+https://rocketlaunch.live
+https://github.com/andysq62/PSRocketLaunch.git

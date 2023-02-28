@@ -25,14 +25,13 @@ Function Get-RLVehicle {
         elseif ($PSCmdlet.ParameterSetName -eq 'ByName') {
 
             If ($PSBoundParameters.ContainsKey('Name')) {
-                $Query = "$($Query)&name=$($Name)" 
+                $Query = "$($Query)&name=$($Name)"
             }
 
             $Response = Invoke-RLMethod -Entity $Entity -Query "$($Query)"
             $Response | Write-Output
 
         }
-    
 
     } # End Process Block
 }
