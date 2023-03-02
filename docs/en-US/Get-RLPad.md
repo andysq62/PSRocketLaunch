@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-RLPad
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Returns launch pad data.
 
 ## SYNTAX
 
@@ -19,25 +19,26 @@ Get-RLPad [-Name <String>] [-CountryCode <String>] [-Page <String>] [<CommonPara
 
 ### ByID
 ```
-Get-RLPad [-ID <String[]>] [<CommonParameters>]
+Get-RLPad [-ID <Int32[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Returns launch pad data. 
+Fields returned are id, name, location, country, state
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Get-RLPad -Name 'SLC'
 ```
 
-{{ Add example description here }}
+Returns data for substring match of launch pad(s) name.
 
 ## PARAMETERS
 
 ### -CountryCode
-{{ Fill CountryCode Description }}
+Two character country identifier.
 
 ```yaml
 Type: String
@@ -52,10 +53,10 @@ Accept wildcard characters: False
 ```
 
 ### -ID
-{{ Fill ID Description }}
+Unique numeric identifier for launch pad.
 
 ```yaml
-Type: String[]
+Type: Int32[]
 Parameter Sets: ByID
 Aliases:
 
@@ -67,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-{{ Fill Name Description }}
+Substring match to name of launch pad.
 
 ```yaml
 Type: String
@@ -82,7 +83,7 @@ Accept wildcard characters: False
 ```
 
 ### -Page
-{{ Fill Page Description }}
+Page number of results.
 
 ```yaml
 Type: String
@@ -108,6 +109,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.Object
+
 ## NOTES
 
+Data provided by RocketLaunch.Live
+
 ## RELATED LINKS
+
+[RocketLaunch API](https://rocketlaunch.live)
+[PSRocketLaunch on Github](https://github.com/andysq62/PSRocketLaunch.git)
+

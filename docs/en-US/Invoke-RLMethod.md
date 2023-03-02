@@ -8,7 +8,7 @@ schema: 2.0.0
 # Invoke-RLMethod
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Makes a REST request to RocketLaunch.live.
 
 ## SYNTAX
 
@@ -17,21 +17,22 @@ Invoke-RLMethod [[-Entity] <String>] [[-query] <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Makes a REST request to the RocketLaunch.live API. You must get an API key from the Web site.  
+Function expects the key to be stored in $Env:RocketLaunchKey.
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Invoke-RLMethod -Entity 'companies' -Query 'name=spacex'
 ```
 
-{{ Add example description here }}
+Returns data for substring match to name of company.
 
 ## PARAMETERS
 
 ### -Entity
-{{ Fill Entity Description }}
+API entity requested, such as companies, missions, launches, pads, locations, and vehicles.
 
 ```yaml
 Type: String
@@ -46,7 +47,7 @@ Accept wildcard characters: False
 ```
 
 ### -query
-{{ Fill query Description }}
+The URI query string.
 
 ```yaml
 Type: String
@@ -70,6 +71,12 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.Object
+
 ## NOTES
 
+Data provided by RocketLaunch.Live
+
 ## RELATED LINKS
+
+[RocketLaunch API](https://rocketlaunch.live)
+[PSRocketLaunch on Github](https://github.com/andysq62/PSRocketLaunch.git)

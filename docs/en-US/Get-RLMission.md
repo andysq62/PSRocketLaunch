@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-RLMission
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Returns mission data.
 
 ## SYNTAX
 
@@ -23,21 +23,22 @@ Get-RLMission [-ID <Int32[]>] [-Page <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Returns mission data. 
+Fields returned are id, name, description, launch, company
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Get-RLMission -Name 'starlink'
 ```
 
-{{ Add example description here }}
+Returns data with name matching substring 'starlink'.
 
 ## PARAMETERS
 
 ### -ID
-{{ Fill ID Description }}
+Unique numeric identifier for a mission.
 
 ```yaml
 Type: Int32[]
@@ -52,7 +53,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-{{ Fill Name Description }}
+Substring match for mission name.
 
 ```yaml
 Type: String
@@ -67,7 +68,7 @@ Accept wildcard characters: False
 ```
 
 ### -Page
-{{ Fill Page Description }}
+Page number of results.
 
 ```yaml
 Type: String
@@ -93,6 +94,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.Object
+
 ## NOTES
 
+Data provided by RocketLaunch.Live
+
 ## RELATED LINKS
+
+[RocketLaunch API](https://rocketlaunch.live)
+[PSRocketLaunch on Github](https://github.com/andysq62/PSRocketLaunch.git)
+

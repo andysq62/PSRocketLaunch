@@ -19,11 +19,12 @@ Get-RLCompany [-Name <String>] [-CountryCode <String>] [-Page <String>] [<Common
 
 ### ByID
 ```
-Get-RLCompany [-ID <String[]>] [<CommonParameters>]
+Get-RLCompany [-ID <Int32[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-Returns data from RocketLaunch.live for an aerospace company.
+Returns data from RocketLaunch.live for an aerospace company. 
+Fields returned are ID, Name, Country, Slug, Inactive
 
 ## EXAMPLES
 
@@ -33,6 +34,13 @@ PS C:\> Get-RLCompany -Name 'space'
 ```
 
 Returns data for all company names matching substring 'space'.
+
+### Example 2
+```powershell
+PS C:\> Get-RLCompany -ID 5
+```
+
+Returns data for the company with ID 5.
 
 ## PARAMETERS
 
@@ -55,7 +63,7 @@ Accept wildcard characters: False
 Unique numeric identifier for a company.
 
 ```yaml
-Type: String[]
+Type: Int32[]
 Parameter Sets: ByID
 Aliases:
 
@@ -114,5 +122,5 @@ Data provided by RocketLaunch.Live
 
 ## RELATED LINKS
 
-https://rocketlaunch.live
-https://github.com/andysq62/PSRocketLaunch.git
+[RocketLaunch API](https://rocketlaunch.live)
+[PSRocketLaunch on Github](https://github.com/andysq62/PSRocketLaunch.git)

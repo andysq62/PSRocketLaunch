@@ -6,7 +6,7 @@ Function Get-RLVehicle {
         [String]$Name,
         [Parameter(ValueFromPipelineByPropertyName,
             ParameterSetName = 'ByID')]
-        [String[]]$ID,
+        [Int32[]]$ID,
         [Parameter(ParameterSetName = 'ByName')]
         [String]$Page = '1'
     )

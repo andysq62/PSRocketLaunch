@@ -10,7 +10,7 @@ Function Get-RLLocation {
         [String]$Page = '1',
         [Parameter(ValueFromPipelineByPropertyName,
             ParameterSetName = 'ByID')]
-        [String[]]$ID
+        [Int32[]]$ID
     )
     Begin {
         $Entity = 'locations'

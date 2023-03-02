@@ -8,7 +8,7 @@ schema: 2.0.0
 # Get-RLVehicle
 
 ## SYNOPSIS
-{{ Fill in the Synopsis }}
+Returns data for launch vehicles.
 
 ## SYNTAX
 
@@ -19,28 +19,28 @@ Get-RLVehicle [-Name <String>] [-Page <String>] [<CommonParameters>]
 
 ### ByID
 ```
-Get-RLVehicle [-ID <String[]>] [<CommonParameters>]
+Get-RLVehicle [-ID <Int32[]>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-{{ Fill in the Description }}
+Returns launch vehicle data. Fields returned are id, name, company.
 
 ## EXAMPLES
 
 ### Example 1
 ```powershell
-PS C:\> {{ Add example code here }}
+PS C:\> Get-RLVehicle -Name 'Falcon'
 ```
 
-{{ Add example description here }}
+Returns data for launch vehicle names matching substring 'Falcon'.
 
 ## PARAMETERS
 
 ### -ID
-{{ Fill ID Description }}
+Unique numeric identifier for launch vehicles.
 
 ```yaml
-Type: String[]
+Type: Int32[]
 Parameter Sets: ByID
 Aliases:
 
@@ -52,7 +52,7 @@ Accept wildcard characters: False
 ```
 
 ### -Name
-{{ Fill Name Description }}
+Substring match of launch vehicle name.
 
 ```yaml
 Type: String
@@ -67,7 +67,7 @@ Accept wildcard characters: False
 ```
 
 ### -Page
-{{ Fill Page Description }}
+Page number of results.
 
 ```yaml
 Type: String
@@ -93,6 +93,13 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ### System.Object
+
 ## NOTES
 
+Data provided by RocketLaunch.Live
+
 ## RELATED LINKS
+
+[RocketLaunch API](https://rocketlaunch.live)
+[PSRocketLaunch on Github](https://github.com/andysq62/PSRocketLaunch.git)
+
