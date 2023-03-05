@@ -19,7 +19,7 @@ The information and data provided by RocketLaunch.Live are for informational pur
 ## Authentication
 
 Authentication is via the http header. Function is currently coded to look for the API key in an environment
-variable, $Env:RocketLaunchKey.
+variable, $Env:RocketLaunchAPIKey.
 
 # EXAMPLES
 
@@ -31,7 +31,7 @@ Each request only returns 25 entries at a time. To see more entries use the page
 
 # TROUBLESHOOTING NOTE
 
-Make sure API key is in an environment variable $Env:RocketLaunchKey
+Make sure API key is in an environment variable $Env:RocketLaunchAPIKey
 
 Possible Future enhancements:
 

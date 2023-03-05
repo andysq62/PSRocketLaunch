@@ -18,7 +18,7 @@ Invoke-RLMethod [[-Entity] <String>] [[-query] <String>] [<CommonParameters>]
 
 ## DESCRIPTION
 Makes a REST request to the RocketLaunch.live API. You must get an API key from the Web site.  
-Function expects the key to be stored in $Env:RocketLaunchKey.
+Function expects the key to be stored in $Env:RocketLaunchAPIKey.
 
 ## EXAMPLES
 
