@@ -15,7 +15,7 @@ RootModule = 'PSRocketLaunch.psm1'
 ModuleVersion = '0.1.0'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+# CompatiblePSEditions = @('PSEdition_Desktop','PSEdition_Core','Windows','Linux','MacOS')
 
 # ID used to uniquely identify this module
 GUID = '27c856d8-e6b3-44d3-99ed-8bffac39427c'
@@ -95,13 +95,13 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        # Tags = @('Rest','Windows','Linux','MacOS')
 
         # A URL to the license for this module.
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        # ProjectUri = 'https://github.com/andysq62/PSRocketLaunch'
 
         # A URL to an icon representing this module.
         # IconUri = ''
