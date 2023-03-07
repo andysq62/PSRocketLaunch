@@ -1,354 +1,354 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="143" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="2" invalid="0" date="2023-03-05" time="16:58:56">
-  <environment cwd="C:\Scripts\Repositories\PSRocketLaunch\tests" user="squires" clr-version="Unknown" machine-name="AU7134QV2" os-version="10.0.19045" user-domain="AMERICAN" platform="Microsoft Windows 10 Education|C:\WINDOWS|\Device\Harddisk0\Partition3" nunit-version="2.5.8.0" />
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="143" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="2" invalid="0" date="2023-03-06" time="20:34:23">
+  <environment os-version="10.0.19045" nunit-version="2.5.8.0" cwd="C:\Scripts\Repositories\PSRocketLaunch\tests" clr-version="Unknown" platform="Microsoft Windows 10 Education|C:\WINDOWS|\Device\Harddisk0\Partition3" machine-name="AU7134QV2" user-domain="AMERICAN" user="squires" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="TestFixture" name="Pester" executed="True" result="Ignored" success="True" time="8.05" asserts="0" description="Pester">
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Ignored" success="True" time="8.5647" asserts="0" description="Pester">
     <results>
-      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Help.tests.ps1" executed="True" result="Success" success="True" time="7.364" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Help.tests.ps1">
+      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Help.tests.ps1" executed="True" result="Success" success="True" time="7.8269" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Help.tests.ps1">
         <results>
-          <test-suite type="TestFixture" name="Test help for Get-RLCompany" executed="True" result="Success" success="True" time="1.1615" asserts="0" description="Test help for Get-RLCompany">
+          <test-suite type="TestFixture" name="Test help for Get-RLCompany" executed="True" result="Success" success="True" time="1.7957" asserts="0" description="Test help for Get-RLCompany">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter CountryCode" executed="True" result="Success" success="True" time="1.0263" asserts="0" description="Test help for Get-RLCompany.Parameter CountryCode">
+              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter CountryCode" executed="True" result="Success" success="True" time="1.5724" asserts="0" description="Test help for Get-RLCompany.Parameter CountryCode">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter CountryCode.Has description" time="0.0134" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter CountryCode.Has correct [mandatory] value" time="0.0111" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter CountryCode.Has correct parameter type" time="0.0129" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter CountryCode.Has description" time="0.0285" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter CountryCode.Has correct [mandatory] value" time="0.016" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter CountryCode.Has correct parameter type" time="0.0223" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter ID" executed="True" result="Success" success="True" time="1.0638" asserts="0" description="Test help for Get-RLCompany.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter ID" executed="True" result="Success" success="True" time="1.6185" asserts="0" description="Test help for Get-RLCompany.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter ID.Has description" time="0.0137" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter ID.Has correct [mandatory] value" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter ID.Has correct parameter type" time="0.0068" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter ID.Has description" time="0.0182" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter ID.Has correct [mandatory] value" time="0.0095" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter ID.Has correct parameter type" time="0.013" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter Name" executed="True" result="Success" success="True" time="1.097" asserts="0" description="Test help for Get-RLCompany.Parameter Name">
+              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter Name" executed="True" result="Success" success="True" time="1.6876" asserts="0" description="Test help for Get-RLCompany.Parameter Name">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter Name.Has description" time="0.0119" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter Name.Has correct [mandatory] value" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter Name.Has correct parameter type" time="0.0075" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter Name.Has description" time="0.0266" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter Name.Has correct [mandatory] value" time="0.0209" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter Name.Has correct parameter type" time="0.0154" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter Page" executed="True" result="Success" success="True" time="1.136" asserts="0" description="Test help for Get-RLCompany.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLCompany.Parameter Page" executed="True" result="Success" success="True" time="1.7491" asserts="0" description="Test help for Get-RLCompany.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter Page.Has description" time="0.0147" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter Page.Has correct [mandatory] value" time="0.011" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter Page.Has correct parameter type" time="0.0099" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLCompany.Parameter Page.Has description" time="0.0207" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLCompany.Parameter Page.Has correct [mandatory] value" time="0.0169" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLCompany.Parameter Page.Has correct parameter type" time="0.0139" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLCompany.Help is not auto-generated" time="0.0209" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Get-RLCompany.Has description" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Get-RLCompany.Has example code" time="0.0092" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLCompany.Has example help" time="0.0063" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.9386" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLCompany.Help is not auto-generated" time="0.1795" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-RLCompany.Has description" time="0.0253" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-RLCompany.Has example code" time="0.0216" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-RLCompany.Has example help" time="0.0433" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="1.1562" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLCompany.Help link https://rocketlaunch.live is valid" time="0.4689" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLCompany.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.4697" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLCompany.Help link https://rocketlaunch.live is valid" time="0.4948" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLCompany.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.6614" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Get-RLLaunch" executed="True" result="Success" success="True" time="1.9898" asserts="0" description="Test help for Get-RLLaunch">
+          <test-suite type="TestFixture" name="Test help for Get-RLLaunch" executed="True" result="Success" success="True" time="2.9084" asserts="0" description="Test help for Get-RLLaunch">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter AfterDate" executed="True" result="Success" success="True" time="0.5264" asserts="0" description="Test help for Get-RLLaunch.Parameter AfterDate">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter AfterDate" executed="True" result="Success" success="True" time="0.6838" asserts="0" description="Test help for Get-RLLaunch.Parameter AfterDate">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter AfterDate.Has description" time="0.016" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter AfterDate.Has correct [mandatory] value" time="0.0079" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter AfterDate.Has description" time="0.0154" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter AfterDate.Has correct [mandatory] value" time="0.0086" asserts="0" success="True" result="Success" executed="True" />
                   <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter AfterDate.Has correct parameter type" time="0.009" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter BeforeDate" executed="True" result="Success" success="True" time="0.5607" asserts="0" description="Test help for Get-RLLaunch.Parameter BeforeDate">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter BeforeDate" executed="True" result="Success" success="True" time="0.7301" asserts="0" description="Test help for Get-RLLaunch.Parameter BeforeDate">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has description" time="0.0138" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has correct [mandatory] value" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has correct parameter type" time="0.0098" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has description" time="0.0171" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has correct [mandatory] value" time="0.0123" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter BeforeDate.Has correct parameter type" time="0.0127" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter ID" executed="True" result="Success" success="True" time="0.5918" asserts="0" description="Test help for Get-RLLaunch.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter ID" executed="True" result="Success" success="True" time="0.7833" asserts="0" description="Test help for Get-RLLaunch.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter ID.Has description" time="0.0134" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter ID.Has correct [mandatory] value" time="0.0066" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter ID.Has correct parameter type" time="0.0078" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter ID.Has description" time="0.0148" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter ID.Has correct [mandatory] value" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter ID.Has correct parameter type" time="0.0235" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter LocationID" executed="True" result="Success" success="True" time="0.6344" asserts="0" description="Test help for Get-RLLaunch.Parameter LocationID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter LocationID" executed="True" result="Success" success="True" time="0.8499" asserts="0" description="Test help for Get-RLLaunch.Parameter LocationID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter LocationID.Has description" time="0.0127" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter LocationID.Has correct [mandatory] value" time="0.0166" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter LocationID.Has correct parameter type" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter LocationID.Has description" time="0.0243" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter LocationID.Has correct [mandatory] value" time="0.0149" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter LocationID.Has correct parameter type" time="0.0171" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter PadID" executed="True" result="Success" success="True" time="0.6759" asserts="0" description="Test help for Get-RLLaunch.Parameter PadID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter PadID" executed="True" result="Success" success="True" time="0.9114" asserts="0" description="Test help for Get-RLLaunch.Parameter PadID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter PadID.Has description" time="0.0154" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter PadID.Has correct [mandatory] value" time="0.012" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter PadID.Has correct parameter type" time="0.0107" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter PadID.Has description" time="0.02" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter PadID.Has correct [mandatory] value" time="0.02" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter PadID.Has correct parameter type" time="0.0132" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter Page" executed="True" result="Success" success="True" time="0.7118" asserts="0" description="Test help for Get-RLLaunch.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter Page" executed="True" result="Success" success="True" time="0.9517" asserts="0" description="Test help for Get-RLLaunch.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter Page.Has description" time="0.0143" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter Page.Has correct [mandatory] value" time="0.0074" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter Page.Has correct parameter type" time="0.0084" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter Page.Has description" time="0.0159" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter Page.Has correct [mandatory] value" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter Page.Has correct parameter type" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter ProviderID" executed="True" result="Success" success="True" time="0.7491" asserts="0" description="Test help for Get-RLLaunch.Parameter ProviderID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter ProviderID" executed="True" result="Success" success="True" time="1.0079" asserts="0" description="Test help for Get-RLLaunch.Parameter ProviderID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter ProviderID.Has description" time="0.0147" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter ProviderID.Has correct [mandatory] value" time="0.0079" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter ProviderID.Has correct parameter type" time="0.0115" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter ProviderID.Has description" time="0.0162" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter ProviderID.Has correct [mandatory] value" time="0.0182" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter ProviderID.Has correct parameter type" time="0.0166" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter Search" executed="True" result="Success" success="True" time="0.7797" asserts="0" description="Test help for Get-RLLaunch.Parameter Search">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter Search" executed="True" result="Success" success="True" time="1.0414" asserts="0" description="Test help for Get-RLLaunch.Parameter Search">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter Search.Has description" time="0.0127" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter Search.Has correct [mandatory] value" time="0.0069" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter Search.Has correct parameter type" time="0.0076" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter Search.Has description" time="0.0131" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter Search.Has correct [mandatory] value" time="0.0078" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter Search.Has correct parameter type" time="0.0086" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter VehicleID" executed="True" result="Success" success="True" time="0.8148" asserts="0" description="Test help for Get-RLLaunch.Parameter VehicleID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLaunch.Parameter VehicleID" executed="True" result="Success" success="True" time="1.0817" asserts="0" description="Test help for Get-RLLaunch.Parameter VehicleID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter VehicleID.Has description" time="0.0136" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter VehicleID.Has correct [mandatory] value" time="0.0076" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter VehicleID.Has correct parameter type" time="0.0108" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLaunch.Parameter VehicleID.Has description" time="0.0171" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLaunch.Parameter VehicleID.Has correct [mandatory] value" time="0.0084" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLaunch.Parameter VehicleID.Has correct parameter type" time="0.0104" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLLaunch.Help is not auto-generated" time="0.015" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Get-RLLaunch.Has description" time="0.0094" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLLaunch.Help is not auto-generated" time="0.0227" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-RLLaunch.Has description" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
               <test-case description="Has example code" name="Test help for Get-RLLaunch.Has example code" time="0.0115" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLLaunch.Has example help" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.4453" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Has example help" name="Test help for Get-RLLaunch.Has example help" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.5915" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLLaunch.Help link https://rocketlaunch.live is valid" time="0.2711" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLLaunch.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.1741" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLLaunch.Help link https://rocketlaunch.live is valid" time="0.3811" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLLaunch.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.2104" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Get-RLLocation" executed="True" result="Success" success="True" time="2.8171" asserts="0" description="Test help for Get-RLLocation">
+          <test-suite type="TestFixture" name="Test help for Get-RLLocation" executed="True" result="Success" success="True" time="3.7059" asserts="0" description="Test help for Get-RLLocation">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter CountryCode" executed="True" result="Success" success="True" time="0.6863" asserts="0" description="Test help for Get-RLLocation.Parameter CountryCode">
+              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter CountryCode" executed="True" result="Success" success="True" time="0.6636" asserts="0" description="Test help for Get-RLLocation.Parameter CountryCode">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter CountryCode.Has description" time="0.0194" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter CountryCode.Has correct [mandatory] value" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter CountryCode.Has correct parameter type" time="0.0117" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter CountryCode.Has description" time="0.0279" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter CountryCode.Has correct [mandatory] value" time="0.037" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter CountryCode.Has correct parameter type" time="0.012" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter ID" executed="True" result="Success" success="True" time="0.7295" asserts="0" description="Test help for Get-RLLocation.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter ID" executed="True" result="Success" success="True" time="0.7033" asserts="0" description="Test help for Get-RLLocation.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter ID.Has description" time="0.016" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter ID.Has correct [mandatory] value" time="0.0109" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter ID.Has correct parameter type" time="0.01" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter ID.Has description" time="0.0167" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter ID.Has correct [mandatory] value" time="0.0097" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter ID.Has correct parameter type" time="0.0099" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter Name" executed="True" result="Success" success="True" time="0.7689" asserts="0" description="Test help for Get-RLLocation.Parameter Name">
+              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter Name" executed="True" result="Success" success="True" time="0.7453" asserts="0" description="Test help for Get-RLLocation.Parameter Name">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter Name.Has description" time="0.0163" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter Name.Has correct [mandatory] value" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter Name.Has correct parameter type" time="0.01" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter Name.Has description" time="0.0191" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter Name.Has correct [mandatory] value" time="0.01" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter Name.Has correct parameter type" time="0.0092" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter Page" executed="True" result="Success" success="True" time="0.8136" asserts="0" description="Test help for Get-RLLocation.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLLocation.Parameter Page" executed="True" result="Success" success="True" time="0.7788" asserts="0" description="Test help for Get-RLLocation.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter Page.Has description" time="0.0252" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter Page.Has correct [mandatory] value" time="0.0069" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter Page.Has correct parameter type" time="0.0092" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLLocation.Parameter Page.Has description" time="0.0143" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLLocation.Parameter Page.Has correct [mandatory] value" time="0.0085" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLLocation.Parameter Page.Has correct parameter type" time="0.0077" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLLocation.Help is not auto-generated" time="0.0193" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Get-RLLocation.Has description" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Get-RLLocation.Has example code" time="0.0087" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLLocation.Has example help" time="0.0068" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.5951" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLLocation.Help is not auto-generated" time="0.0352" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-RLLocation.Has description" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-RLLocation.Has example code" time="0.0102" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-RLLocation.Has example help" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.5177" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLLocation.Help link https://rocketlaunch.live is valid" time="0.3988" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLLocation.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.1964" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLLocation.Help link https://rocketlaunch.live is valid" time="0.3402" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLLocation.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.1775" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Get-RLMission" executed="True" result="Success" success="True" time="3.6596" asserts="0" description="Test help for Get-RLMission">
+          <test-suite type="TestFixture" name="Test help for Get-RLMission" executed="True" result="Success" success="True" time="4.6192" asserts="0" description="Test help for Get-RLMission">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter ID" executed="True" result="Success" success="True" time="0.7567" asserts="0" description="Test help for Get-RLMission.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter ID" executed="True" result="Success" success="True" time="0.8243" asserts="0" description="Test help for Get-RLMission.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter ID.Has description" time="0.0116" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter ID.Has correct [mandatory] value" time="0.0081" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter ID.Has correct parameter type" time="0.0067" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter ID.Has description" time="0.0128" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter ID.Has correct [mandatory] value" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter ID.Has correct parameter type" time="0.0081" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter Name" executed="True" result="Success" success="True" time="0.7982" asserts="0" description="Test help for Get-RLMission.Parameter Name">
+              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter Name" executed="True" result="Success" success="True" time="0.8594" asserts="0" description="Test help for Get-RLMission.Parameter Name">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter Name.Has description" time="0.0139" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter Name.Has correct [mandatory] value" time="0.0121" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter Name.Has correct parameter type" time="0.0119" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter Name.Has description" time="0.0116" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter Name.Has correct [mandatory] value" time="0.0089" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter Name.Has correct parameter type" time="0.0105" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter Page" executed="True" result="Success" success="True" time="0.829" asserts="0" description="Test help for Get-RLMission.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLMission.Parameter Page" executed="True" result="Success" success="True" time="0.9003" asserts="0" description="Test help for Get-RLMission.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter Page.Has description" time="0.0121" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter Page.Has correct [mandatory] value" time="0.0077" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter Page.Has correct parameter type" time="0.0077" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLMission.Parameter Page.Has description" time="0.0146" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLMission.Parameter Page.Has correct [mandatory] value" time="0.0113" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLMission.Parameter Page.Has correct parameter type" time="0.0114" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLMission.Help is not auto-generated" time="0.0168" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Get-RLMission.Has description" time="0.014" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Get-RLMission.Has example code" time="0.0089" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLMission.Has example help" time="0.0108" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.6735" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLMission.Help is not auto-generated" time="0.0192" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-RLMission.Has description" time="0.0074" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-RLMission.Has example code" time="0.0106" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-RLMission.Has example help" time="0.009" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.744" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLMission.Help link https://rocketlaunch.live is valid" time="0.4542" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLMission.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.2193" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLMission.Help link https://rocketlaunch.live is valid" time="0.313" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLMission.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.431" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Get-RLPad" executed="True" result="Success" success="True" time="4.7085" asserts="0" description="Test help for Get-RLPad">
+          <test-suite type="TestFixture" name="Test help for Get-RLPad" executed="True" result="Success" success="True" time="5.4307" asserts="0" description="Test help for Get-RLPad">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter CountryCode" executed="True" result="Success" success="True" time="0.9425" asserts="0" description="Test help for Get-RLPad.Parameter CountryCode">
+              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter CountryCode" executed="True" result="Success" success="True" time="0.6564" asserts="0" description="Test help for Get-RLPad.Parameter CountryCode">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter CountryCode.Has description" time="0.015" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter CountryCode.Has correct [mandatory] value" time="0.0124" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter CountryCode.Has correct parameter type" time="0.0105" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter CountryCode.Has description" time="0.0202" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter CountryCode.Has correct [mandatory] value" time="0.0116" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter CountryCode.Has correct parameter type" time="0.0103" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter ID" executed="True" result="Success" success="True" time="0.9737" asserts="0" description="Test help for Get-RLPad.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter ID" executed="True" result="Success" success="True" time="0.7083" asserts="0" description="Test help for Get-RLPad.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter ID.Has description" time="0.0109" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter ID.Has correct [mandatory] value" time="0.0095" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter ID.Has correct parameter type" time="0.0069" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter ID.Has description" time="0.0192" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter ID.Has correct [mandatory] value" time="0.0149" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter ID.Has correct parameter type" time="0.0113" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter Name" executed="True" result="Success" success="True" time="1.0048" asserts="0" description="Test help for Get-RLPad.Parameter Name">
+              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter Name" executed="True" result="Success" success="True" time="0.7542" asserts="0" description="Test help for Get-RLPad.Parameter Name">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter Name.Has description" time="0.0127" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter Name.Has correct [mandatory] value" time="0.0081" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter Name.Has correct parameter type" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter Name.Has description" time="0.0169" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter Name.Has correct [mandatory] value" time="0.0114" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter Name.Has correct parameter type" time="0.0116" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter Page" executed="True" result="Success" success="True" time="1.0367" asserts="0" description="Test help for Get-RLPad.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLPad.Parameter Page" executed="True" result="Success" success="True" time="0.7947" asserts="0" description="Test help for Get-RLPad.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter Page.Has description" time="0.0125" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter Page.Has correct [mandatory] value" time="0.0082" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter Page.Has correct parameter type" time="0.0065" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLPad.Parameter Page.Has description" time="0.0156" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLPad.Parameter Page.Has correct [mandatory] value" time="0.0119" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLPad.Parameter Page.Has correct parameter type" time="0.0094" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLPad.Help is not auto-generated" time="0.0216" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Get-RLPad.Has description" time="0.0075" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Get-RLPad.Has example code" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLPad.Has example help" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.853" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLPad.Help is not auto-generated" time="0.0178" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-RLPad.Has description" time="0.0088" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-RLPad.Has example code" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-RLPad.Has example help" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.5653" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLPad.Help link https://rocketlaunch.live is valid" time="0.509" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLPad.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.3439" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLPad.Help link https://rocketlaunch.live is valid" time="0.3776" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLPad.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.1877" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Get-RLVehicle" executed="True" result="Success" success="True" time="6.0886" asserts="0" description="Test help for Get-RLVehicle">
+          <test-suite type="TestFixture" name="Test help for Get-RLVehicle" executed="True" result="Success" success="True" time="6.1775" asserts="0" description="Test help for Get-RLVehicle">
             <results>
-              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter ID" executed="True" result="Success" success="True" time="1.2634" asserts="0" description="Test help for Get-RLVehicle.Parameter ID">
+              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter ID" executed="True" result="Success" success="True" time="0.6369" asserts="0" description="Test help for Get-RLVehicle.Parameter ID">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter ID.Has description" time="0.0122" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter ID.Has correct [mandatory] value" time="0.007" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter ID.Has correct parameter type" time="0.0068" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter ID.Has description" time="0.0137" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter ID.Has correct [mandatory] value" time="0.0118" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter ID.Has correct parameter type" time="0.0087" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter Name" executed="True" result="Success" success="True" time="1.3211" asserts="0" description="Test help for Get-RLVehicle.Parameter Name">
+              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter Name" executed="True" result="Success" success="True" time="0.691" asserts="0" description="Test help for Get-RLVehicle.Parameter Name">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter Name.Has description" time="0.0209" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter Name.Has correct [mandatory] value" time="0.0173" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter Name.Has correct parameter type" time="0.0151" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter Name.Has description" time="0.0212" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter Name.Has correct [mandatory] value" time="0.0117" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter Name.Has correct parameter type" time="0.0159" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter Page" executed="True" result="Success" success="True" time="1.3616" asserts="0" description="Test help for Get-RLVehicle.Parameter Page">
+              <test-suite type="TestFixture" name="Test help for Get-RLVehicle.Parameter Page" executed="True" result="Success" success="True" time="0.729" asserts="0" description="Test help for Get-RLVehicle.Parameter Page">
                 <results>
-                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter Page.Has description" time="0.0154" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter Page.Has correct [mandatory] value" time="0.01" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter Page.Has correct parameter type" time="0.0112" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Get-RLVehicle.Parameter Page.Has description" time="0.0169" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-RLVehicle.Parameter Page.Has correct [mandatory] value" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-RLVehicle.Parameter Page.Has correct parameter type" time="0.0073" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Get-RLVehicle.Help is not auto-generated" time="0.0239" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Help is not auto-generated" name="Test help for Get-RLVehicle.Help is not auto-generated" time="0.0328" asserts="0" success="True" result="Success" executed="True" />
               <test-case description="Has description" name="Test help for Get-RLVehicle.Has description" time="0.0093" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Get-RLVehicle.Has example code" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Get-RLVehicle.Has example help" time="0.0112" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="1.1782" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Has example code" name="Test help for Get-RLVehicle.Has example code" time="0.0114" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-RLVehicle.Has example help" time="0.016" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.529" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLVehicle.Help link https://rocketlaunch.live is valid" time="0.5469" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLVehicle.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.6313" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Get-RLVehicle.Help link https://rocketlaunch.live is valid" time="0.3666" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Get-RLVehicle.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.1623" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
           </test-suite>
-          <test-suite type="TestFixture" name="Test help for Invoke-RLMethod" executed="True" result="Success" success="True" time="6.9926" asserts="0" description="Test help for Invoke-RLMethod">
+          <test-suite type="TestFixture" name="Test help for Invoke-RLMethod" executed="True" result="Success" success="True" time="6.8684" asserts="0" description="Test help for Invoke-RLMethod">
             <results>
-              <test-suite type="TestFixture" name="Test help for Invoke-RLMethod.Parameter Entity" executed="True" result="Success" success="True" time="0.844" asserts="0" description="Test help for Invoke-RLMethod.Parameter Entity">
+              <test-suite type="TestFixture" name="Test help for Invoke-RLMethod.Parameter Entity" executed="True" result="Success" success="True" time="0.6316" asserts="0" description="Test help for Invoke-RLMethod.Parameter Entity">
                 <results>
-                  <test-case description="Has description" name="Test help for Invoke-RLMethod.Parameter Entity.Has description" time="0.0125" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Invoke-RLMethod.Parameter Entity.Has correct [mandatory] value" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Invoke-RLMethod.Parameter Entity.Has correct parameter type" time="0.0088" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Invoke-RLMethod.Parameter Entity.Has description" time="0.0145" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Invoke-RLMethod.Parameter Entity.Has correct [mandatory] value" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Invoke-RLMethod.Parameter Entity.Has correct parameter type" time="0.014" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Test help for Invoke-RLMethod.Parameter query" executed="True" result="Success" success="True" time="0.8819" asserts="0" description="Test help for Invoke-RLMethod.Parameter query">
+              <test-suite type="TestFixture" name="Test help for Invoke-RLMethod.Parameter query" executed="True" result="Success" success="True" time="0.668" asserts="0" description="Test help for Invoke-RLMethod.Parameter query">
                 <results>
-                  <test-case description="Has description" name="Test help for Invoke-RLMethod.Parameter query.Has description" time="0.0143" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct [mandatory] value" name="Test help for Invoke-RLMethod.Parameter query.Has correct [mandatory] value" time="0.0106" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has correct parameter type" name="Test help for Invoke-RLMethod.Parameter query.Has correct parameter type" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has description" name="Test help for Invoke-RLMethod.Parameter query.Has description" time="0.0139" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Invoke-RLMethod.Parameter query.Has correct [mandatory] value" time="0.0103" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Invoke-RLMethod.Parameter query.Has correct parameter type" time="0.0089" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-case description="Help is not auto-generated" name="Test help for Invoke-RLMethod.Help is not auto-generated" time="0.0225" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has description" name="Test help for Invoke-RLMethod.Has description" time="0.0085" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example code" name="Test help for Invoke-RLMethod.Has example code" time="0.0098" asserts="0" success="True" result="Success" executed="True" />
-              <test-case description="Has example help" name="Test help for Invoke-RLMethod.Has example help" time="0.0074" asserts="0" success="True" result="Success" executed="True" />
-              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.7611" asserts="0" description="Help link &lt;_&gt; is valid">
+              <test-case description="Help is not auto-generated" name="Test help for Invoke-RLMethod.Help is not auto-generated" time="0.0205" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Invoke-RLMethod.Has description" time="0.015" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Invoke-RLMethod.Has example code" time="0.0067" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Invoke-RLMethod.Has example help" time="0.0091" asserts="0" success="True" result="Success" executed="True" />
+              <test-suite type="ParameterizedTest" name="Test help for &lt;_.Name&gt;.Help link &lt;_&gt; is valid" executed="True" result="Success" success="True" time="0.5402" asserts="0" description="Help link &lt;_&gt; is valid">
                 <results>
-                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Invoke-RLMethod.Help link https://rocketlaunch.live is valid" time="0.4607" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Invoke-RLMethod.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.3004" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://rocketlaunch.live is valid" name="Test help for Invoke-RLMethod.Help link https://rocketlaunch.live is valid" time="0.3512" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Help link https://github.com/andysq62/PSRocketLaunch.git is valid" name="Test help for Invoke-RLMethod.Help link https://github.com/andysq62/PSRocketLaunch.git is valid" time="0.189" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-            </results>
-          </test-suite>
-        </results>
-      </test-suite>
-      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Manifest.tests.ps1" executed="True" result="Ignored" success="True" time="0.3832" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Manifest.tests.ps1">
-        <results>
-          <test-suite type="TestFixture" name="Module manifest" executed="True" result="Success" success="True" time="0.1065" asserts="0" description="Module manifest">
-            <results>
-              <test-suite type="TestFixture" name="Module manifest.Validation" executed="True" result="Success" success="True" time="0.1017" asserts="0" description="Module manifest.Validation">
-                <results>
-                  <test-case description="Has a valid manifest" name="Module manifest.Validation.Has a valid manifest" time="0.0182" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid name in the manifest" name="Module manifest.Validation.Has a valid name in the manifest" time="0.0106" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid root module" name="Module manifest.Validation.Has a valid root module" time="0.0076" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid version in the manifest" name="Module manifest.Validation.Has a valid version in the manifest" time="0.0071" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid description" name="Module manifest.Validation.Has a valid description" time="0.0088" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid author" name="Module manifest.Validation.Has a valid author" time="0.0125" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid guid" name="Module manifest.Validation.Has a valid guid" time="0.0114" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid copyright" name="Module manifest.Validation.Has a valid copyright" time="0.0067" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Has a valid version in the changelog" name="Module manifest.Validation.Has a valid version in the changelog" time="0.0086" asserts="0" success="True" result="Success" executed="True" />
-                  <test-case description="Changelog and manifest versions are the same" name="Module manifest.Validation.Changelog and manifest versions are the same" time="0.007" asserts="0" success="True" result="Success" executed="True" />
-                </results>
-              </test-suite>
-            </results>
-          </test-suite>
-          <test-suite type="TestFixture" name="Git tagging" executed="True" result="Ignored" success="True" time="0.134" asserts="0" description="Git tagging">
-            <results>
-              <test-case description="Is tagged with a valid version" name="Git tagging.Is tagged with a valid version" time="0.0154" asserts="0" success="False" result="Ignored" executed="False" />
-              <test-case description="Matches manifest version" name="Git tagging.Matches manifest version" time="0.0082" asserts="0" success="False" result="Ignored" executed="False" />
             </results>
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Meta.tests.ps1" executed="True" result="Success" success="True" time="0.3029" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Meta.tests.ps1">
+      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Manifest.tests.ps1" executed="True" result="Ignored" success="True" time="0.4778" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Manifest.tests.ps1">
         <results>
-          <test-suite type="TestFixture" name="Text files formatting" executed="True" result="Success" success="True" time="0.0454" asserts="0" description="Text files formatting">
+          <test-suite type="TestFixture" name="Module manifest" executed="True" result="Success" success="True" time="0.2138" asserts="0" description="Module manifest">
             <results>
-              <test-suite type="TestFixture" name="Text files formatting.File encoding" executed="True" result="Success" success="True" time="0.0187" asserts="0" description="Text files formatting.File encoding">
+              <test-suite type="TestFixture" name="Module manifest.Validation" executed="True" result="Success" success="True" time="0.2073" asserts="0" description="Module manifest.Validation">
                 <results>
-                  <test-case description="No text file uses Unicode/UTF-16 encoding" name="Text files formatting.File encoding.No text file uses Unicode/UTF-16 encoding" time="0.0164" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid manifest" name="Module manifest.Validation.Has a valid manifest" time="0.0306" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid name in the manifest" name="Module manifest.Validation.Has a valid name in the manifest" time="0.0096" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid root module" name="Module manifest.Validation.Has a valid root module" time="0.0203" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the manifest" name="Module manifest.Validation.Has a valid version in the manifest" time="0.0192" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid description" name="Module manifest.Validation.Has a valid description" time="0.018" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid author" name="Module manifest.Validation.Has a valid author" time="0.0201" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid guid" name="Module manifest.Validation.Has a valid guid" time="0.0336" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid copyright" name="Module manifest.Validation.Has a valid copyright" time="0.0148" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the changelog" name="Module manifest.Validation.Has a valid version in the changelog" time="0.0174" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Changelog and manifest versions are the same" name="Module manifest.Validation.Changelog and manifest versions are the same" time="0.0205" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
-              <test-suite type="TestFixture" name="Text files formatting.Indentations" executed="True" result="Success" success="True" time="0.0427" asserts="0" description="Text files formatting.Indentations">
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Git tagging" executed="True" result="Ignored" success="True" time="0.2411" asserts="0" description="Git tagging">
+            <results>
+              <test-case description="Is tagged with a valid version" name="Git tagging.Is tagged with a valid version" time="0.0186" asserts="0" success="False" result="Ignored" executed="False" />
+              <test-case description="Matches manifest version" name="Git tagging.Matches manifest version" time="0.0058" asserts="0" success="False" result="Ignored" executed="False" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\Scripts\Repositories\PSRocketLaunch\tests\Meta.tests.ps1" executed="True" result="Success" success="True" time="0.26" asserts="0" description="C:\Scripts\Repositories\PSRocketLaunch\tests\Meta.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Text files formatting" executed="True" result="Success" success="True" time="0.0543" asserts="0" description="Text files formatting">
+            <results>
+              <test-suite type="TestFixture" name="Text files formatting.File encoding" executed="True" result="Success" success="True" time="0.0332" asserts="0" description="Text files formatting.File encoding">
                 <results>
-                  <test-case description="No text file use tabs for indentations" name="Text files formatting.Indentations.No text file use tabs for indentations" time="0.0208" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="No text file uses Unicode/UTF-16 encoding" name="Text files formatting.File encoding.No text file uses Unicode/UTF-16 encoding" time="0.0303" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Text files formatting.Indentations" executed="True" result="Success" success="True" time="0.0515" asserts="0" description="Text files formatting.Indentations">
+                <results>
+                  <test-case description="No text file use tabs for indentations" name="Text files formatting.Indentations.No text file use tabs for indentations" time="0.0156" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
