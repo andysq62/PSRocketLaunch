@@ -1,0 +1,14 @@
+name: Publish
+on: [workflow_dispatch]
+
+jobs:
+    build:
+      name: Publish
+      runs-on: windows-latest
+      steps:
+        - uses: actions/checkout@v1
+        - name: Publish
+          env:
+            PSGAPIKEY: ${{ secrets.PSGAPIKEY }}
+          run: .\publish.ps1
+          shell: pwsh
