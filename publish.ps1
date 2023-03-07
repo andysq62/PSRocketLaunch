@@ -1,5 +1,4 @@
-"Script root is: $($PSScriptRoot)" | Write-Host
 $ModulePath = "$PSScriptRoot\Output\PSRocketLaunch"
-Get-ChildItem -Path $ModulePath
+"Module Path is: $($ModulePath)" | Write-Host
 
-#Publish-Module -Path $ModulePath -NuGetApiKey $Env:PSGAPIKEY
+Publish-Module -Path $ModulePath -NuGetApiKey $Env:PSGAPIKEY
